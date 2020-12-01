@@ -1,0 +1,82 @@
+.member_info{
+    width: 1100px;
+    height: 600px;
+    background: #FFFFFF;
+    margin: 70px auto 0;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.info_left{
+    margin-top: 30px;
+    padding: 10px;
+    float: left;
+    width: 280px;
+    height: 100%;
+    /*background: #bababa;*/
+}
+.info_right{
+    float: left;
+    width: 800px;
+    height: 100%;
+    /*background: #9dd3a8;*/
+}
+
+.left_list{
+    margin: 0 auto;
+}
+.left_list ul li {
+    border-radius: 10px;
+    list-style-type: none;
+    height: 40px;
+    width: 280px;
+    text-align: center;
+
+}
+
+.left_list ul li:hover {
+    background: #bababa;
+}
+
+.left_list ul li img {
+    vertical-align:middle;
+    width: 30px;
+}
+
+.info_table{
+    margin: 20px;
+    width: 760px;
+}
+
+
+.info_table img{
+    border: 2px solid #bababa;
+    vertical-align:middle;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.info_but{
+    margin-left: 100px;
+    border: 1px solid #9dd3a8;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+table{
+    border-collapse: collapse;
+}
+.info_table tr{
+    border-bottom: 1px solid #dcdcdc;
+    height: 50px;
+    margin: 30px;
+}
+.td1 {
+    width: 150px;
+    color: #bababa;
+
+}
+.td2{
+    /*border-top: 1px solid #bababa;*/
+    width: 650px;
+}

@@ -1,0 +1,43 @@
+.book_context{
+    margin: 70px auto 0;
+    width: 1020px;
+    /*height: 1000px;*/
+    background: #FFFFFF;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+
+.book_ls{
+    float: left;
+    /*background: #147eaf;*/
+    height: 270px;
+    width: 150px;
+    padding: 10px;
+}
+.book_ls img{
+    /*position: absolute;*/
+    border-radius: 5px;
+    width: 140px;
+}
+
+.book_ls:hover img{
+    border-radius: 5px;
+    width: 150px;
+}
+
+.book_ls span{
+    display: inherit;
+}
+
+.book_t{
+    font-size: 16px;
+}
+
+.book_a{
+    color: #cdd0cf;
+    font-size: 12px;
+}
+.book_num{
+    font-size: 12px;
+    color: #cdd0cf;
+}
