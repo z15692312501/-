@@ -15,6 +15,7 @@
     padding: 10px;
 }
 .book_ls img{
+    transition:width 0.5s;
     /*position: absolute;*/
     border-radius: 5px;
     width: 140px;
