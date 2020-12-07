@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/mditor.js"></script>
+</head>
+<body>
+<div class="nav">
+    <div class="nav_cative">
+
+        <div class="nav1">
+            <span class="logo"><a href="index.html">恩布斯</a></span>
+        </div>
+
+        <div class="nav2">
+            <span class="span1">首页</span>
+            <span class="span2">下载app</span>
+            <input class="text-yuan" type="text" name="text" placeholder="输入搜索内容。。。"/>
+            <input class="but_yuan" type="button" value="搜索"/>
+        </div>
+
+        <div class="nav3">
+                <span>
+                    <a href="login.html">登录</a>
+                    <a href="register.html"><input class="but_yuan but_color" type="button" value="注册"/></a>
+                    <input class="but_yuan" type="button" value="写文章"/>
+                </span>
+
+        </div>
+    </div>
+</div>
+<div class="text_ed">
+    <input type="text" placeholder="标题" style="border: none; height: 70px;width: 100%; font-size: 40px">
+    <textarea id="md_editor">
+    </textarea>
+    <div class="ed_submit">
+        <input type="button" value="提交" style="width: 300px; height: 50px;margin: auto">
+    </div>
+</div>
+
+<div class="footer">
+    <ul class="footer_ul">
+        <li><a href="ourpage.html">关于我们</a></li>
+        <li>联系我们</li>
+        <li>加入我们</li>
+        <li>合作伙伴</li>
+        <li>帮助中心</li>
+    </ul>
+    <p>&nbsp;&nbsp;&copy;2012-2020  / 恩布斯 / 鲁ICP备11018329号-5 / Smrz 鲁公网安备31010402002252号 /</p>
+</div>
+
+</body>
+
+<script type="text/javascript">
+    //获取textarea dom对象
+    var editor = new mditor(document.getElementById('md_editor'),{
+        //自定义显示效果class
+        previewClass : 'article'
+    });
+    //实例化Mditor
+    var editor = new mditor(ele_textarea);
+</script>
+</html>

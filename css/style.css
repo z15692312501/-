@@ -383,3 +383,17 @@ input{
 .nulldiv{
     clear: both;
 }
+
+.text_ed{
+    margin-top: 70px;
+}
+
+.ed_submit{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ed_submit input{
+    border-radius: 30px;
+
+}
